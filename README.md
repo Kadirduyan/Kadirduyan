@@ -1,21 +1,22 @@
 <div align="center">
 
-<!-- DİNAMİK BAŞLIK GÖRSELİ (CAPSULE RENDER BANNER) -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1320,50:142034,100:0284c7&height=230&section=header&text=Kadir%20Duyan&fontSize=54&fontColor=f8fafc&fontAlignY=36&desc=Computer%20Engineering%20%7C%20Edge%20AI%20%26%20Embedded%20Systems&descSize=20&descColor=38bdf8&descAlignY=58&animation=fadeIn" width="100%" alt="Kadir Duyan | Computer Engineering & Edge AI / Embedded Systems" />
+<!-- ÖZEL MÜHENDİSLİK BAŞLIK GÖRSELİ (REPO İÇİ SVG BANNER - %100 ÇALIŞIR) -->
+<img src="./assets/banner.svg" width="100%" alt="Kadir Duyan | Computer Engineering & Edge AI / Embedded Systems" />
+
+<br/>
 
 <!-- HIZLI ERİŞİM BUTONLARI -->
 <p align="center">
   <a href="https://www.linkedin.com/in/kadir-duyan4" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-Kadir%20Duyan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
+  &nbsp;
   <a href="mailto:kadirduyan482@gmail.com">
     <img src="https://img.shields.io/badge/E--Posta-kadirduyan482%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
+  &nbsp;
   <a href="https://github.com/Kadirduyan?tab=repositories" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-Mühendislik%20Projeleri-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repositories" />
-  </a>
-  <a href="https://kadirduyan.github.io/KadirDuyan-Personal/" target="_blank">
-    <img src="https://img.shields.io/badge/Web%20Portföy-Canlı%20Önizleme-0284C7?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Web Portfolio" />
   </a>
 </p>
 
@@ -113,7 +114,5 @@ Gerçek zamanlı **Bilgisayarlı Görü (Edge AI / Computer Vision)** boru hatla
 <a href="mailto:kadirduyan482@gmail.com">
   <img src="https://img.shields.io/badge/E--Posta%20Gönder-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="E-posta" />
 </a>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1320,50:142034,100:0284c7&height=90&section=footer" width="100%" alt="Footer" />
 
 </div>

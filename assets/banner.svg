@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="100%" height="240">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070c15" />
+      <stop offset="50%" stop-color="#0f1d33" />
+      <stop offset="100%" stop-color="#0b2948" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="50%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#22c55e" />
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e3250" stroke-width="0.7" stroke-opacity="0.45" />
+    </pattern>
+  </defs>
+
+  <!-- Arka Plan -->
+  <rect width="1200" height="240" rx="14" fill="url(#bgGrad)" stroke="#1e3250" stroke-width="2" />
+  <rect width="1200" height="240" rx="14" fill="url(#grid)" />
+
+  <!-- Dekoratif Devre ve HUD Çizgileri -->
+  <circle cx="1080" cy="120" r="160" fill="none" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.15" stroke-dasharray="8 6" />
+  <circle cx="1080" cy="120" r="110" fill="none" stroke="#22c55e" stroke-width="1" stroke-opacity="0.18" />
+  <path d="M 60 40 L 110 40 L 130 60" fill="none" stroke="#38bdf8" stroke-width="2" stroke-opacity="0.6" />
+  <path d="M 1140 200 L 1090 200 L 1070 180" fill="none" stroke="#22c55e" stroke-width="2" stroke-opacity="0.6" />
+
+  <!-- Sol Dikey Vurgu Çubuğu -->
+  <rect x="64" y="66" width="5" height="108" rx="2.5" fill="url(#accentGrad)" />
+
+  <!-- Başlık ve Alt Başlık -->
+  <text x="90" y="112" font-family="'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="800" fill="#f8fafc" letter-spacing="2">
+    KADİR DUYAN
+  </text>
+
+  <text x="90" y="152" font-family="'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="600" fill="#38bdf8" letter-spacing="0.8">
+    Computer Engineering  |  Edge AI, Computer Vision &amp; Embedded Systems
+  </text>
+
+  <text x="90" y="182" font-family="'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="500" fill="#94a3b8" letter-spacing="0.5">
+    C++17  •  Qt6  •  OpenCV DNN  •  YOLOv8  •  GStreamer  •  STM32  •  Industrial Automation
+  </text>
+
+  <!-- Alt İnce Çizgi -->
+  <rect x="0" y="235" width="1200" height="5" fill="url(#accentGrad)" opacity="0.85" />
+</svg>
